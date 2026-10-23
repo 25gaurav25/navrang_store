@@ -214,7 +214,9 @@
 }
 
 /* --- Cart Page Layout --- */
-.cart-container { max-width: 600px; margin: 0 auto; padding: 40px 24px; }
+.cart-container { 
+  max-width: 600px; margin: 0 auto; padding: 40px 24px;
+ }
 .cart-page-title { text-align: center; font-size: 2.5rem; margin-top: 0; margin-bottom: 32px; }
 .cart-card { background-color: white; padding: 32px; border-radius: 16px; border: 2px solid var(--shadow); box-shadow: 6px 6px 0px var(--shadow); margin-bottom: 40px; }
 .cart-section { margin-bottom: 32px; }
