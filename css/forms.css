@@ -1,0 +1,84 @@
+.form-input {
+  padding: 14px;
+  border: 2px solid var(--shadow);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.form-stack { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 16px; 
+}
+
+/* Auth Toggle Switch */
+.auth-toggle-container {
+  display: flex;
+  border: 2px solid var(--shadow);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-toggle-btn {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  background: transparent;
+  color: var(--shadow);
+  transition: all 0.2s;
+}
+
+.auth-toggle-btn.active {
+  background: var(--pink);
+  color: white;
+}
+
+.auth-toggle-btn:first-child {
+  border-right: 2px solid var(--shadow);
+}
+
+.form-title {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+/* The Duct-Tape Sticky Note */
+.wall-background { 
+  min-height: 80vh; 
+  display: grid; 
+  place-items: center; 
+}
+
+.paper-form {
+  background-color: #FFF9C4;
+  padding: 40px;
+  margin: 50px;
+  width: 350px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 6px 6px 0px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.duct-tape {
+  background-color: #8f939a;
+  width: 170px;
+  height: 35px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-3deg);
+}
+
+@media (max-width: 768px) {
+  .paper-form { width: 90%; padding: 20px; }
+  .duct-tape { width: 140px; }
+}

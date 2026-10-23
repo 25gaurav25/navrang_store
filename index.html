@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navrang Stationery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <nav class="top-navbar">
+    <a href="index.html"class="nav-logo">NAVRANG</a>
+    <ul class="nav-links">
+      <li><a href="index.html"><span class="active">Home</span></a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="cart.html">Shop</a></li> 
+      <li><a href="about.html">About</a></li> 
+      <li><a href="auth.html" id="auth-link">Sign up</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero-section">
+    <h1 class="hero-title">NAVRANG STATIONERY</h1>
+    <p class="hero-subtitle">Fun, creative stationery for your next big idea.</p>
+  </header>
+
+  <section class="split-section">
+    <div>    
+      <p class="text-pink font-bold mb-10">No Limits, Just Solutions</p>
+      <h2 class="section-title mt-0">WELCOME TO NAVRANG</h2>
+      <p class="line-height-lg mb-30">At Navrang, we bring a complete stationery experience to Maharashtra. Whether you are prepping for a new academic year with the latest school textbooks or stocking up on office essentials, we have everything you need under one roof.</p>
+      <p class="line-height-lg mb-40">We believe a stationery store should have no limits. If you want something specific and we don't have it on the shelf, just tell us! We will source your custom requests and bring them to you in just a few days.</p>
+      <a href="about.html" class="btn btn-yellow">Read Our Story</a>
+    </div>
+   <img class="feature-image-block" src="images/imghome.jpg" alt="Home Navrang">
+  </section>  
+
+  <section class="dark-banner bg-purple">
+    <h2 class="text-white">NEED SOMETHING SPECIFIC?</h2>
+    <p class="text-white banner-text">
+      We take custom orders! If you are looking for a specific school textbook,
+      a bulk order for your office, or a rare craft item, just let us know.
+      You name it, we get it for you in a matter of days.
+    </p>
+    <div class="flex-center">
+      <a href="cart.html" class="btn btn-yellow">Request an Item</a>
+      <a href="products.html" class="btn btn-outline-white">Browse Catalog</a>
+    </div>
+  </section>
+
+  <div class="products-header">
+    <p class="text-pink font-bold mb-10 text-center">Popular Essentials</p>
+    <h2 class="section-title mt-0 text-center mb-40">STUDENT FAVORITES</h2>
+  </div>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="images/sembooks.png" alt="Semester Textbooks">
+      <h3 class="product-title">Semester Textbooks</h3>
+      <p class="product-desc">Latest editions of state board and university textbooks.</p>
+      <p>starting from <span class="product-price">₹ 50.00</span></p>
+      </div>
+    
+    <div class="product-card">
+      <img src="images/geombox.png" alt="Geometry Box">
+      <h3 class="product-title">Geometry Box</h3>
+      <p class="product-desc">High-quality, durable instruments for daily school use.</p>
+      <p>starting from <span class="product-price">₹ 70.00</span></p>
+    </div>
+    
+    <div class="product-card">
+      <img src="images/prempens.png" alt="Premium Pen">
+      <h3 class="product-title">Premium Pen</h3>
+      <p class="product-desc">Smooth-flowing ink perfect for exams and long notes.</p>
+      <p>starting from <span class="product-price">₹ 50.00</span></p>
+    </div>
+  </div>
+ 
+  <nav class="bottom-navbar">
+    <a href="index.html" class="nav-icon"><span class="icon active">home</span></a>
+    <a href="products.html" class="nav-icon"><span class="icon">storefront</span></a>
+    <a href="cart.html" class="nav-icon"><span class="icon">shopping_cart</span></a>
+    <a href="auth.html" id="auth-link-mobile" class="nav-icon"><span class="icon">person</span></a>
+  </nav>
+
+  <footer class="multi-footer">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h3>About Us</h3>
+        <p class="text-center">Navrang: Your complete stationery hub.<br>From daily school supplies to custom orders.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Working Hours</h3>
+        <p class="text-center">9am to 9pm<br>Open Every Day</p>
+      </div>
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p class="text-center">+91 98201 98201<br>@navrangstore<br>Maharashtra, India</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="text-center">Copyright © 2026 Navrang Stationery.</p>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/db.js" ></script>
+  <script src="js/cart.js"></script>
+  <script src="js/session.js"></script>
+</body>
+</html>

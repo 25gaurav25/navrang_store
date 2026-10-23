@@ -1,0 +1,51 @@
+:root {
+  --bg-cream: #fcf7e7;
+  --pink: #ff8fa4;
+  --shadow:#525656;
+  --black: #000;
+  --font-heading: 'Fredoka', sans-serif;
+  --font-body: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  background-color: var(--bg-cream);
+  color: var(--shadow);
+}
+
+h1, h2, h3, h4, .nav-logo, .btn {
+  font-family: var(--font-heading);
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 2px solid var(--shadow);
+}
+
+.icon {
+  font-family: 'Material Symbols Rounded';
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Base Utilities to replace inline styles */
+.text-pink { color: var(--pink); }
+.text-white { color: white; }
+.text-green { color: rgb(61, 161, 31); }
+.text-center { text-align: center; }
+.font-bold { font-weight: bold; }
+.mt-0 { margin-top: 0; }
+.mb-10 { margin-bottom: 8px; }
+.mb-30 { margin-bottom: 24px; }
+.mb-40 { margin-bottom: 32px; }
+.p-40 { padding: 32px; }
+.bg-cream { background-color: var(--bg-cream); }
+.bg-dark { background-color: #222; }
+.bg-purple { background-color: #8B5CF6; }
+.line-height-lg { line-height: 1.6; }
+.section-title { font-size: 2.5rem; }
+.text-xl { font-size: 1.5rem; }
